@@ -1,0 +1,4 @@
+module CNIOOpenSSL {
+    umbrella "/Users/jekuo/Desktop/BasicRouter/.build/checkouts/swift-nio-ssl.git-7118168491815849929/Sources/CNIOOpenSSL/include"
+    export *
+}
