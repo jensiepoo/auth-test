@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/jekuo/Desktop/BasicRouter/.build/checkouts/crypto.git--7998397640310607597/Sources/CCryptoOpenSSL/include"
+    export *
+}
