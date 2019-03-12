@@ -13,6 +13,10 @@ public func routes(_ router: Router) throws {
     }
 
     router.get("redirect") { req in
+        return req.redirect(to: "lilearningauth://www.linkedin.com/learning/llfe-callback?success=true&account-id=0&upgrade-token=1234")
+    }
+    
+    router.get("redirect1") { req in
         return req.redirect(to: "https://www.linkedin.com/learning/llfe-callback?success=true&account-id=0&upgrade-token=1234")
     }
 
